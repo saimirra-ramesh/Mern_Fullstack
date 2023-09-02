@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+    <style>
+        table, th, td{
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+    h3{
+        color: blue;
+    }
+    </style>
+    
+</head>
+<body>
+    <h2><a href="./index.html">Index Page</a></h2>
+    <h1>Task 5</h1>
+    <br>
+    <center>
+    <h3>Registration Form</h3>
+    <form>
+            <table width="600">
+                
+                <tr>
+                    <td><label for = "fname" width="100">First Name</label> </td>
+                    <td><input type="text" id = "fname" name="fname" placeholder="Enter FirstName" required width="200"></td>
+                </tr>
+
+                <tr>
+                    <td><label for = "lname">Last Name</label> </td>
+                    <td><input type="text" id = "lname" name="lname" placeholder="Enter LastName" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for ="mail">Email</label></td>
+                    <td><input type="email" id = "mail" name="mail" placeholder="abc@gmail.com"></td>
+                </tr>
+
+                <tr>
+                    <td><label for = "pass">Password</label></td>
+                    <td><input type="password" id = "pass" name="pass" placeholder="Enter your Password" maxlength="12"></td>
+                </tr>
+        
+                <tr>
+                    <td><label for = "repass">Re-enter Password</label></td>
+                    <td><input type="password" id = "repass" name="repass" placeholder="Re-Type Password" maxlength="12"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Gender: </label></td>
+                    <td>
+                        <input type="radio" name="gender" />Male
+                        <br>
+                        <input type="radio" name="gender" />Female
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td><label for = "age">Age: </label></td>
+                    <td><input type="number" id = "age" name="age" placeholder="Enter Age" min = "0" max ="99" value="1"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Address</label></td>
+                    <td><textarea></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label for = "state"></label>State</td>
+                    <td><input type="state" id = "state" name="state" placeholder="Enter State" required></td>
+                </tr>
+
+                <tr>
+                    <td><label>Country</label></td>
+                    <td>
+                        <select>
+                            <option>Choose your country</option>
+                            <option>India</option>
+                            <option>Singapore</option>
+                            <option>Nepal</option>
+                            <option>Sri Lanka</option>
+                        </select>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td><label>Languages known</label></td>
+                    <td>
+                        <input type="checkbox" />English
+                        <input type="checkbox" />Kannada
+                        <input type="checkbox" />Hindi
+                        <input type="checkbox" />Telugu
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" checked /> Hereby I declare all the given details are true
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right"  colspan="2">Login to <a href = "www.ethnus.com" style="color: purple;">Ethnus</a> website</td>
+                </tr>
+            </table>
+            <br>
+            <input type="submit" value="Register" align="center"/>
+    </form>
+</center>
+    
+</body>
+</html>
