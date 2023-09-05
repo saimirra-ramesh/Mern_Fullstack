@@ -1,0 +1,57 @@
+.vb{
+    list-style-type: none; /*No bullet points*/
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: powderblue;
+}
+
+.vb li{
+    text-indent: 10px;
+}
+
+.vb li a{
+    height: 40px;
+    line-height: 40px; /*text is aligned to the centre*/
+    color: blue;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+}
+
+.vb a:hover{
+    background-color: orange;
+    color: white;
+}
+
+.hb{
+    list-style-type: none; /*Removing bullet points*/
+    margin: 0;
+    padding: 0;
+    width: 409px;
+    background-color: rgb(189, 193, 194);
+    overflow: hidden;
+}
+
+.hb li{
+    float: left;
+    border-right: 1px solid blue;
+}
+
+.hb li:last-child{
+    border-right: none;
+}
+
+.hb li a{
+    height: 40px;
+    line-height: 40px;
+    padding: 20px;
+    color: blue;
+    text-decoration: none;
+    display: block;
+}
+
+.hb a:hover{
+    background-color: rgb(70, 70, 69);
+    color: white;
+}

@@ -1,0 +1,35 @@
+/* Style the links inside the sidenav */
+.nav a{
+    position: absolute; 
+    left: -70px; 
+    transition: 0.5s; 
+    padding: 15px; 
+    width: 100px; 
+    text-decoration: none;  
+    color: white;
+    border-radius: 0 5px 5px 0; 
+  }
+  
+.nav a:hover {
+    left: 0; 
+  }
+  
+  #one {
+    top: 140px;
+    background-color: green;
+  }
+  
+  #two {
+    top: 200px;
+    background-color: blue; 
+  }
+  
+  #three {
+    top: 260px;
+    background-color: red; 
+  }
+  
+  #four {
+    top: 320px;
+    background-color: grey;
+  }
