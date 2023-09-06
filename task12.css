@@ -1,0 +1,41 @@
+table, th, td{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    color: white;
+    background-color: rgb(122, 33, 73);
+    width: 550px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 800px;
+    background-color: rgb(174, 41, 88);
+    padding-top: 20px; /* Add padding to create space between the form and the border */
+    padding-bottom: 5px;
+}
+
+.button{
+    background-color: white;
+    font-weight: bolder;
+    color: darkslategrey;
+    font-size: large;
+    padding: 10px 20px;
+    margin: 5px 0 20px 0;
+    column-span: 2;
+    border-radius: 10px;
+    border-width: 0px;
+    cursor: pointer;
+    width:350px;
+  }
+
+
+    
+
+    
+    
+    
+    
+    
+    
