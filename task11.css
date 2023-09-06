@@ -58,7 +58,7 @@ span.psw{
 }
 
 /* Change styles for small screens */
-/* @media screen and (max-width: 300px) {
+ @media screen and (max-width: 300px) {
   span.psw {
      display: block;
      float: none;
@@ -66,4 +66,4 @@ span.psw{
   .cancel{
      width:100%;
   }
-} */
+} 
